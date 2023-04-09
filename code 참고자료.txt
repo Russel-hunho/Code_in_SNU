@@ -1,0 +1,22 @@
+digitalWrite에서, 
+
+
+void setup ()
+{
+
+  for (int i=0; i<=11; i++)
+  {
+    pinMode(i, OUTPUT);
+  }
+  pinMode(14, INPUT);
+  pinMode(15, INPUT);
+  pinMode(16, OUTPUT);
+  pinMode(17, OUTPUT);
+  pinMode(18, OUTPUT);
+  pinMode(19, OUTPUT);
+
+}
+
+
+
+digitalWrite(14, HIGH);
